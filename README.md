@@ -1,1 +1,1 @@
-# ZacharyDietderich.github.io
+Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego State University with a minor in Mathematics, graduating in May 2026. I have hands-on experience in mechanical design, materials testing, and prototyping roles at Lawrence Berkeley National Laboratory and Applied Spectra, where I worked on superconducting magnet development, automation tools in Python, and experimental testing systems.
