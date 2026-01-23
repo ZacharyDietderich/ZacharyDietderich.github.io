@@ -5,7 +5,7 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
 
 ---
 
-## Projects
+# Projects
 - [In-vacuum Z-Stage and test visualization metrology of tin-H interactions in the EUV source (Capstone — ASML × SDSU)](#in-vacuum-z-stage-and-test-visualization-metrology-of-tin-h-interactions-in-the-euv-source-capstone--asml--sdsu)
 - [MATLAB Pick and Place Robot (SDSU)](#matlab-pick-and-place-robot-sdsu)
 - [Superconducting Magnet Materials Testing (LBNL)](#superconducting-magnet-materials-testing-lbnl)
@@ -59,3 +59,11 @@ An LC2000N24-200250NE stage from Thomson Linear and a liquid-cooled breadboard f
 - The accuracy and repeatability can now be controlled.
 - Test efficiency is greatly improved with outside operation from the user.
 - Safety requirements preventing users from entering the chamber are now met.
+
+## MATLAB Pick and Place Robot (SDSU)
+
+## Superconducting Magnet Materials Testing (LBNL)
+
+## Python Automation Tools with 3D-Printed Coils (LBNL)
+
+
