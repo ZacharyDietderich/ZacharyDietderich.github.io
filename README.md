@@ -6,7 +6,7 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
 ---
 
 # Projects
-- [In-vacuum Z-Stage and test visualization metrology of tin-H interactions in the EUV source (Capstone — ASML × SDSU)](#in-vacuum-z-stage-and-test-visualization-metrology-of-tin-h-interactions-in-the-euv-source-capstone--asml--sdsu)
+- [In-vacuum Z-Stage (Capstone — ASML × SDSU)](#asml-capstone)
 - [MATLAB Pick and Place Robot (SDSU)](#matlab-pick-and-place-robot-sdsu)
 - [Superconducting Magnet Materials Testing (LBNL)](#superconducting-magnet-materials-testing-lbnl)
 - [Python Automation Tools with 3D-Printed Coils (LBNL)](#python-automation-tools-with-3d-printed-coils-lbnl)
@@ -14,7 +14,10 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
 
 ---
 
-## In-vacuum Z-Stage and test visualization metrology of tin-H interactions in the EUV source (Capstone - ASML X SDSU)
+<h2 id="asml-capstone">
+  In-vacuum Z-Stage and test visualization metrology of tin-H interactions in the EUV source - Capstone (ASML X SDSU)
+</h2>
+
 ### What?
 #### The problems:
 - The vacuum chamber had to be opened, and the stage had to be adjusted manually with the operator leaning into the chamber.
@@ -66,4 +69,4 @@ An LC2000N24-200250NE stage from Thomson Linear and a liquid-cooled breadboard f
 
 ## Python Automation Tools with 3D-Printed Coils (LBNL)
 
-
+[![3D-Printed quadrupole test winding](assets/z_stage_video_thumb.png)](https://youtu.be/kcI7nIB2wTw)
