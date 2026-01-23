@@ -5,11 +5,12 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
 
 ---
 
-# Projects
-- In-vacuum Z-Stage and test visualization metrology of tin-H interactions in the EUV source - Capstone (ASML X SDSU)
-- MATLAB Pick and Place Robot (SDSU)
-- Superconducting magnet materials testing (LBNL)
-- Python automation tools with 3D printed coils (LBNL)
+## Projects
+- [In-vacuum Z-Stage and test visualization metrology of tin-H interactions in the EUV source (Capstone — ASML × SDSU)](#in-vacuum-z-stage-and-test-visualization-metrology-of-tin-h-interactions-in-the-euv-source-capstone--asml--sdsu)
+- [MATLAB Pick and Place Robot (SDSU)](#matlab-pick-and-place-robot-sdsu)
+- [Superconducting Magnet Materials Testing (LBNL)](#superconducting-magnet-materials-testing-lbnl)
+- [Python Automation Tools with 3D-Printed Coils (LBNL)](#python-automation-tools-with-3d-printed-coils-lbnl)
+
 
 ---
 
