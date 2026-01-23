@@ -14,5 +14,11 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
 
 **In-vacuum Z-Stage and test visualization metrology of tin-H interactions in the EUV source - Capstone (ASML X SDSU)**
 ![Vacuum Chamber with the stage and camera systems, showing feedthrough assembly](ZStage_Setup.png)
+<p align="center">
+  <img src="ZStage_Setyp.png" width="500">
+</p>
 
 ![Z-Stage assembly in exploded view showing setup concept](Stage_Exploded.png)
+<p align="center">
+  <img src="Stage_Exploded.png" width="500">
+</p>
