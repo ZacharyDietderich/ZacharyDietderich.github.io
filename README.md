@@ -107,6 +107,7 @@ Designed and implemented a LabVIEW application to monitor and record temperature
 </table>
 
 ### Results
+
 - Successfully monitored temperature profiles throughout long-duration curing cycles.
 - Enabled real-time detection of temperature deviations between thermocouple locations.
 - Produced complete, timestamped temperature logs for post-process analysis and documentation.
