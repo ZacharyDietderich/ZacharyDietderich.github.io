@@ -8,7 +8,7 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
 # Projects
 - [In-vacuum Z-Stage (Capstone — ASML × SDSU)](#asml-capstone)
 - [Temperature Monitoring and Logging DAQ System (LabVIEW)](#temperature-monitoring-and-logging-daq-system-labview)
-- [Python Automation Tools with 3D-Printed Coils (LBNL)](#python-automation-tools-with-3d-printed-coils-lbnl)
+- [Modeling, Fabrication, Test Winding, and Automated Control (LBNL)](#modeling-fabrication-test-winding-and-automated-control-lbnl)
 - [MATLAB Pick and Place Robot (SDSU)](#matlab-pick-and-place-robot-sdsu)
 - [Superconducting Magnet Materials Testing (LBNL)](#superconducting-magnet-materials-testing-lbnl)
 
@@ -115,7 +115,7 @@ Designed and implemented a LabVIEW application to monitor and record temperature
 
 ---
 
-## Python Automation Tools with 3D-Printed Coils (LBNL)
+## Modeling, Fabrication, Test Winding, and Automated Control (LBNL)
 ### Automated Superconducting Winder (Python)
 I developed a Python-based control pipeline to replace and consolidate a complex set of legacy Excel spreadsheets used for superconducting wire winding. The system translates 3D mandrel path geometry into precise motion commands for an automated winding machine controlled via LabVIEW. **Added 2D and 3D visualization tools to verify geometry, detect angle discontinuities, and validate machine motion.** The script imports 3D path coordinates (X, Y, Z) exported from CAD models and performs vector-based geometric analysis to calculate:
 - Local tangent angles along the winding path
@@ -143,22 +143,25 @@ Using Creo Parametric, I converted the analytical wire paths into 3D mandrel mod
 - Performed test windings on printed mandrels to verify winding stability and winder capabilities.
 - Iterated mandrel designs based on winding results to improve alignment, robustness, and repeatability.
   
-<table>
-  <tr>
-     <td align="center">
-      <img src="combined_function.jpeg" alt="Combined-function wire modeling" width="300" />
-      <br /><sub>Combined-function wire modeling</sub>
-    </td>
-    <td align="center">
-      <img src="wire_path_modeling.jpeg" alt="Modeling 3D wire path curves on mandrel" width="240" />
-      <br /><sub>3D wire-path curves (CAD)</sub>
-    </td>
+<div align="center">
+  <table>
+    <tr>
       <td align="center">
-      <img src="printed_quad.jpeg" alt="3D printed quadrupole mandrel with grooves" width="240" />
-      <br /><sub>PLA printed mandrel (test part)</sub>
-    </td>
-  </tr>
-</table>
+        <img src="combined_function.jpeg" alt="Combined-function wire modeling" width="300" />
+        <br /><sub>Combined-function wire modeling</sub>
+      </td>
+      <td align="center">
+        <img src="wire_path_modeling.jpeg" alt="Modeling 3D wire path curves on mandrel" width="240" />
+        <br /><sub>3D wire-path curves (CAD)</sub>
+      </td>
+      <td align="center">
+        <img src="printed_quad.jpeg" alt="3D printed quadrupole mandrel with grooves" width="240" />
+        <br /><sub>PLA printed mandrel (test part)</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
 
 ### Results
 - Improved analytical modeling, CAD, fabrication, and machine control.
