@@ -18,7 +18,7 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
   In-vacuum Z-Stage and test visualization metrology of tin-H interactions in the EUV source - Capstone (ASML X SDSU)
 </h2>
 
-### What?
+### What
 #### The problems:
 - The vacuum chamber had to be opened, and the stage had to be adjusted manually with the operator leaning into the chamber.
 - Repeatability was difficult with the Z-stage not being hard-mounted inside the vessel, and manual adjustment.
@@ -27,7 +27,7 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
 - Develop an externally adjustable test platform within ASML’s onsite vacuum vessel that meets requirements and prevents damage to nearby critical components.
 - Develop an adjustable digital camera system that lives in-vacuum and provides the operator with a good visualization of test samples during testing
 
-### How?
+### How
 
 The stage and digital camera systems live inside the vacuum chamber. The stage actuates vertically, holding samples at various distances from the sapphire tube (not shown in the CAD). At the same time, the digital camera is adjusted along the 80/20 rail to capture images/record the samples.
 
@@ -68,7 +68,7 @@ The stage and digital camera systems live inside the vacuum chamber. The stage a
 ---
 
 ## Temperature Monitoring and Logging DAQ System (LabVIEW)
-### What?
+### What
 Designed and implemented a LabVIEW application to monitor and record temperature data from multiple thermocouples during the curing process of superconducting magnets. The system was intended to provide real-time visibility into oven temperature uniformity and to generate reliable temperature records for process validation and quality assurance.
 
 <table align="center">
@@ -85,7 +85,7 @@ Designed and implemented a LabVIEW application to monitor and record temperature
   </tr>
 </table>
 
-### How?
+### How
 - Developed a LabVIEW-based data acquisition system interfacing with a temperature controller over Ethernet.
 - Configured communication parameters, including IP address, device type, zone, and parameter IDs.
 - Implemented robust initialization logic using a While Loop to ensurea  reliable connection to the controller.
