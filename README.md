@@ -7,6 +7,7 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
 
 # Projects
 - [In-vacuum Z-Stage (Capstone — ASML × SDSU)](#asml-capstone)
+- [Temperature Monitoring and Logging DAQ System (LabVIEW)](#temperature-monitoring-and-logging-daq-system-labview)
 - [MATLAB Pick and Place Robot (SDSU)](#matlab-pick-and-place-robot-sdsu)
 - [Superconducting Magnet Materials Testing (LBNL)](#superconducting-magnet-materials-testing-lbnl)
 - [Python Automation Tools with 3D-Printed Coils (LBNL)](#python-automation-tools-with-3d-printed-coils-lbnl)
