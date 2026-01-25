@@ -105,6 +105,7 @@ Designed and implemented a LabVIEW application to monitor and record temperature
     <td><img src="BP4.png" width="300"></td>
   </tr>
 </table>
+</div>
 
 ### Results
 
