@@ -124,7 +124,7 @@ I developed a Python-based control pipeline to replace and consolidate a complex
 - Axial direction changes to correctly resolve mandrel rotation logic
 - Continuous rotation tracking with wrap-around handling across multiple revolutions
 
-### Link to sample winding video
+### Link to sample winding video (linked in image below)
 <p align="center">
   <a href="https://youtu.be/kcI7nIB2wTw">
     <img
@@ -183,7 +183,7 @@ Built a collision-aware pick-and-place planner for a 7-DOF KUKA iiwa robot using
 - Planned collision-free trajectories using RRT-based motion planning between home, pick, and place configurations.
 - Generated smooth time-parameterized trajectories and animated object attachment during grasp execution.
 
-### Sample video showing pick and place in environment
+### Sample video showing pick and place in the environment (linked in image below)
 <p align="center">
   <a href="https://youtu.be/w3WNetFs1dY">
     <img
