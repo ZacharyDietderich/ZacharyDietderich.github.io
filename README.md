@@ -40,22 +40,25 @@ The stage and digital camera systems live inside the vacuum chamber. The stage a
     width="500">
 </p>
 
-An LC2000N24-200250NE stage from Thomson Linear and a liquid-cooled breadboard from Thorlabs were purchased, along with necessary nuts, bolts, and set screws.
-
-<p align="center">
-  <img src="Stage_Exploded.png" 
-    alt="Stage system exploded view." 
-    width="500">
-</p>
-
+- An LC2000N24-200250NE stage from Thomson Linear and a liquid-cooled breadboard from Thorlabs were purchased, along with necessary nuts, bolts, and set screws.
 - The **challenge** for mounting the stage is that it has to sit inside a port hole, but cannot apply force to the vacuum flange. While also lightweight enough to be installed while leaning into the confined chamber.
-- The **solution** is a modular design shown below, where the weight is applied to the horizontal metal inserts, which slot into the base, and are welded together. The set screws prevent any rotation from occurring.
+- The **solution** is a modular design shown below, where the weight is applied to the horizontal metal inserts, which slot into the base, and are welded together. The set screws prevent rotation.
 
-<p align="center">
-  <img src="Mounting_Exploded.png" 
-    alt="Base mounting close up exploded view." 
-    width="500">
-</p>
+<table align="center">
+  <tr>
+    <td>
+      <img src="Stage_Exploded.png"
+           alt="Stage system exploded view."
+           width="300">
+    </td>
+    <td>
+      <img src="Mounting_Exploded.png"
+           alt="Base mounting close up exploded view."
+           width="300">
+    </td>
+  </tr>
+</table>
+
 
 ### Results
 
@@ -63,10 +66,91 @@ An LC2000N24-200250NE stage from Thomson Linear and a liquid-cooled breadboard f
 - Test efficiency is greatly improved with outside operation from the user.
 - Safety requirements preventing users from entering the chamber are now met.
 
+---
+
+## Temperature Monitoring and Logging DAQ System (LabVIEW)
+### What?
+Designed and implemented a LabVIEW application to monitor and record temperature data from multiple thermocouples during the curing process of superconducting magnets. The system was intended to provide real-time visibility into oven temperature uniformity and to generate reliable temperature records for process validation and quality assurance.
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="FP1.png" width="300">
+    </td>
+    <td>
+      <img src="FP2.png" width="300">
+    </td>
+    <td>
+      <img src="FP3.png" width="300">
+    </td>
+  </tr>
+</table>
+
+### How?
+- Developed a LabVIEW-based data acquisition system interfacing with a temperature controller over Ethernet
+- Configured communication parameters including IP address, device type, zone, and parameter IDs
+- Implemented robust initialization logic using a While Loop to ensure reliable connection to the controller
+- Acquired temperature data from up to eight thermocouple channels at user-defined intervals
+- Displayed live numerical readings and real-time XY plots of temperature versus time
+- Logged timestamped temperature data to file for later analysis
+- Designed an operator-friendly front panel with configurable settings and clear status indicators
+<div style="display:flex; flex-wrap:wrap; gap:12px;">
+<table align="center">
+  <tr>
+    <td><img src="BP1.png" width="300"></td>
+    <td><img src="BP2.png" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="BP3.png" width="300"></td>
+    <td><img src="BP4.png" width="300"></td>
+  </tr>
+</table>
+
+### Results
+- Successfully monitored temperature profiles throughout long-duration curing cycles
+- Enabled real-time detection of temperature deviations between thermocouple locations
+- Produced complete, timestamped temperature logs for post-process analysis and documentation
+- Improved confidence in curing process consistency and thermal uniformity for superconducting magnet fabrication
+- Delivered a stable system capable of unattended operation during extended thermal runs
+
+---
+
 ## MATLAB Pick and Place Robot (SDSU)
+Built a collision-aware pick-and-place planner for a 7-DOF KUKA iiwa robot using IK, RRT motion planning, and automated feasibility recovery in cluttered environments.
+- Developed a collision-aware pick-and-place system for a KUKA iiwa 7-DOF robot using MATLAB Robotics System Toolbox.
+- Modeled robot links and environment obstacles using custom collision geometry (boxes, cylinders, spheres).
+- Created environment objects with collision geometry for the robot to avoid while path planning.
+- Implemented inverse kinematics with task-specific weighting for grasping and placement.
+- Designed a fallback search algorithm to find the nearest feasible placement pose when the user-requested target was unreachable or in collision.
+- Planned collision-free trajectories using RRT-based motion planning between home, pick, and place configurations.
+- Generated smooth time-parameterized trajectories and animated object attachment during grasp execution.
+
+### Sample video showing pick and place in environment
+<p align="center">
+  <a href="https://youtu.be/w3WNetFs1dY">
+    <img
+      src="ML_Robot.png"
+      alt="Sample pick and place video of robot."
+      width="500"
+    >
+  </a>
+</p>
+
+---
 
 ## Superconducting Magnet Materials Testing (LBNL)
 
+---
+
 ## Python Automation Tools with 3D-Printed Coils (LBNL)
 
-[![3D-Printed quadrupole test winding](assets/z_stage_video_thumb.png)](https://youtu.be/kcI7nIB2wTw)
+<p align="center">
+  <a href="https://youtu.be/kcI7nIB2wTw">
+    <img
+      src="z_stage_video_thumb.png"
+      alt="3D-printed quadrupole test winding."
+      width="500"
+    >
+  </a>
+</p>
+
