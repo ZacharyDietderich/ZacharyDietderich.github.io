@@ -8,10 +8,9 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
 # Projects
 - [In-vacuum Z-Stage (Capstone — ASML × SDSU)](#asml-capstone)
 - [Temperature Monitoring and Logging DAQ System (LabVIEW)](#temperature-monitoring-and-logging-daq-system-labview)
+- [Python Automation Tools with 3D-Printed Coils (LBNL)](#python-automation-tools-with-3d-printed-coils-lbnl)
 - [MATLAB Pick and Place Robot (SDSU)](#matlab-pick-and-place-robot-sdsu)
 - [Superconducting Magnet Materials Testing (LBNL)](#superconducting-magnet-materials-testing-lbnl)
-- [Python Automation Tools with 3D-Printed Coils (LBNL)](#python-automation-tools-with-3d-printed-coils-lbnl)
-
 
 ---
 
@@ -60,7 +59,6 @@ The stage and digital camera systems live inside the vacuum chamber. The stage a
   </tr>
 </table>
 
-
 ### Results
 
 - The accuracy and repeatability can now be controlled.
@@ -88,13 +86,14 @@ Designed and implemented a LabVIEW application to monitor and record temperature
 </table>
 
 ### How?
-- Developed a LabVIEW-based data acquisition system interfacing with a temperature controller over Ethernet
-- Configured communication parameters including IP address, device type, zone, and parameter IDs
-- Implemented robust initialization logic using a While Loop to ensure reliable connection to the controller
-- Acquired temperature data from up to eight thermocouple channels at user-defined intervals
-- Displayed live numerical readings and real-time XY plots of temperature versus time
-- Logged timestamped temperature data to file for later analysis
-- Designed an operator-friendly front panel with configurable settings and clear status indicators
+- Developed a LabVIEW-based data acquisition system interfacing with a temperature controller over Ethernet.
+- Configured communication parameters, including IP address, device type, zone, and parameter IDs.
+- Implemented robust initialization logic using a While Loop to ensurea  reliable connection to the controller.
+- Acquired temperature data from up to eight thermocouple channels at user-defined intervals.
+- Displayed live numerical readings and real-time XY plots of temperature versus time.
+- Logged timestamped temperature data to a file for later analysis.
+- Designed an operator-friendly front panel with configurable settings and clear status indicators.
+
 <div style="display:flex; flex-wrap:wrap; gap:12px;">
 <table align="center">
   <tr>
@@ -108,11 +107,64 @@ Designed and implemented a LabVIEW application to monitor and record temperature
 </table>
 
 ### Results
-- Successfully monitored temperature profiles throughout long-duration curing cycles
-- Enabled real-time detection of temperature deviations between thermocouple locations
-- Produced complete, timestamped temperature logs for post-process analysis and documentation
-- Improved confidence in curing process consistency and thermal uniformity for superconducting magnet fabrication
-- Delivered a stable system capable of unattended operation during extended thermal runs
+- Successfully monitored temperature profiles throughout long-duration curing cycles.
+- Enabled real-time detection of temperature deviations between thermocouple locations.
+- Produced complete, timestamped temperature logs for post-process analysis and documentation.
+- Improved confidence in curing process consistency and thermal uniformity for superconducting magnet fabrication.
+- Delivered a stable system capable of unattended operation during extended thermal runs.
+
+---
+
+## Python Automation Tools with 3D-Printed Coils (LBNL)
+### Automated Superconducting Winder (Python)
+I developed a Python-based control pipeline to replace and consolidate a complex set of legacy Excel spreadsheets used for superconducting wire winding. The system translates 3D mandrel path geometry into precise motion commands for an automated winding machine controlled via LabVIEW. **Added 2D and 3D visualization tools to verify geometry, detect angle discontinuities, and validate machine motion.** The script imports 3D path coordinates (X, Y, Z) exported from CAD models and performs vector-based geometric analysis to calculate:
+- Local tangent angles along the winding path
+- Axial direction changes to correctly resolve mandrel rotation logic
+- Continuous rotation tracking with wrap-around handling across multiple revolutions
+
+### Link to sample winding video
+<p align="center">
+  <a href="https://youtu.be/kcI7nIB2wTw">
+    <img
+      src="z_stage_video_thumb.png"
+      alt="3D-printed quadrupole test winding."
+      width="500"
+    >
+  </a>
+</p>
+
+### Mandrel Development
+Using Creo Parametric, I converted the analytical wire paths into 3D mandrel models. I fabricated physical mandrels via PLA 3D printing, optimizing the designs for printability and testing.
+- Modeled analytical wire-path equations for quadrupole, sextupole, and combined-function magnet mandrels to define precise conductor geometry.
+- Translated wire-path equations into parametric 3D mandrel models using Creo Parametric.
+- Designed mandrel features to maintain continuous winding surfaces and accurate groove geometry.
+- Enabled rapid geometry iteration by parameterizing pitch, radius, and axial length.
+- Fabricated prototype mandrels via PLA 3D printing for fast, low-cost validation.
+- Performed test windings on printed mandrels to verify winding stability and winder capabilities.
+- Iterated mandrel designs based on winding results to improve alignment, robustness, and repeatability.
+  
+<table>
+  <tr>
+     <td align="center">
+      <img src="combined_function.jpeg" alt="Combined-function wire modeling" width="300" />
+      <br /><sub>Combined-function wire modeling</sub>
+    </td>
+    <td align="center">
+      <img src="wire_path_modeling.jpeg" alt="Modeling 3D wire path curves on mandrel" width="240" />
+      <br /><sub>3D wire-path curves (CAD)</sub>
+    </td>
+      <td align="center">
+      <img src="printed_quad.jpeg" alt="3D printed quadrupole mandrel with grooves" width="240" />
+      <br /><sub>PLA printed mandrel (test part)</sub>
+    </td>
+  </tr>
+</table>
+
+### Results
+- Improved analytical modeling, CAD, fabrication, and machine control.
+- Eliminated manual spreadsheet logic from a safety-critical process.
+- Improved repeatability and traceability of superconducting coil winding.
+- Enabled rapid iteration on new multipole magnet geometries.
 
 ---
 
@@ -140,18 +192,3 @@ Built a collision-aware pick-and-place planner for a 7-DOF KUKA iiwa robot using
 ---
 
 ## Superconducting Magnet Materials Testing (LBNL)
-
----
-
-## Python Automation Tools with 3D-Printed Coils (LBNL)
-
-<p align="center">
-  <a href="https://youtu.be/kcI7nIB2wTw">
-    <img
-      src="z_stage_video_thumb.png"
-      alt="3D-printed quadrupole test winding."
-      width="500"
-    >
-  </a>
-</p>
-
