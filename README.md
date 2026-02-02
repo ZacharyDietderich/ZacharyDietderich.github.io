@@ -1,4 +1,4 @@
-**WORK IN PROGRESS**
+**Website in development**
 📧 zac.rd123@gmail.com • 💼 [LinkedIn](https://www.linkedin.com/in/zac-d-3b6807244/) • 📄 [Resume](Resume-2-1-2026_linkslong.pdf)
 
 Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego State University with a minor in Mathematics, graduating in May 2026. I have hands-on experience in **mechanical design, materials testing, and prototyping roles** at **Lawrence Berkeley National Laboratory and Applied Spectra**, where I worked on the development of superconducting magnets, automation tools in Python, and experimental testing systems.
@@ -6,7 +6,7 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
 ---
 
 # Projects
-- [In-vacuum Z-Stage (Capstone — ASML × SDSU)](#asml-capstone)
+- [In-vacuum Z-Stage (Senior Capstone — ASML and SDSU)](#asml-capstone)
 - [Temperature Monitoring and Logging DAQ System (LabVIEW)](#temperature-monitoring-and-logging-daq-system-labview)
 - [Modeling, Fabrication, Test Winding, and Automated Control (LBNL)](#modeling-fabrication-test-winding-and-automated-control-lbnl)
 - [MATLAB Pick and Place Robot (SDSU)](#matlab-pick-and-place-robot-sdsu)
@@ -15,24 +15,24 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
 ---
 
 <h2 id="asml-capstone">
-  In-vacuum Z-Stage and test visualization metrology of tin-H interactions in the EUV source - Capstone (ASML X SDSU)
+  In-vacuum Z-Stage and test visualization metrology of tin-Hydrogen interactions in the EUV source - Capstone (ASML X SDSU)
 </h2>
 
 ### What
 #### The problems:
-- The vacuum chamber had to be opened, and the stage had to be adjusted manually with the operator leaning into the chamber.
-- Repeatability was difficult with the Z-stage not being hard-mounted inside the vessel, and manual adjustment.
+- Presently, the vacuum chamber has to be opened, and the stage height has to be adjusted manually with the operator leaning into the chamber.
+- Repeatability is difficult with the Z-stage not being hard-mounted inside the vessel.
 - The digital camera was outside the chamber, looking in through a viewport that didn't allow for high-quality imaging.
 #### The goal:
-- Develop an externally adjustable test platform within ASML’s onsite vacuum vessel that meets requirements and prevents damage to nearby critical components.
-- Develop an adjustable digital camera system that lives in-vacuum and provides the operator with a good visualization of test samples during testing
+- Develop a test platform with external vertical adjustability within ASML’s vacuum vessel. This system has to meet translation and accuracy requirements, as well as prevents damage to nearby critical components.
+- Develop an adjustable digital camera system that is in the vacuum chamberand provides the operator with a high resolution FOV of the samples on the mounting board.
 
 ### How
 
-The stage and digital camera systems live inside the vacuum chamber. The stage actuates vertically, holding samples at various distances from the sapphire tube (not shown in the CAD). At the same time, the digital camera is adjusted along the 80/20 rail to capture images/record the samples.
+The stage and digital camera systems reside inside the vacuum chamber. The stage actuates vertically, holding samples at various distances from the sapphire tube (not shown in the CAD). At the same time, the digital camera is adjusted along the 80/20 rail to capture images or video of the samples.
 
-- The components were designed through the **mechanical design process**, starting with defining the problem, ideation (involving research and trade studies), CAD modeling, FEA, and prototyping to find the best solution.
-- The assembly shown was modeled in **SolidWorks**, with FEA being done on the high-stress components.
+- The components were designed through the **mechanical design process**, starting by defining the problem, ideation (involving research and trade studies), CAD modeling, FEA, and prototyping to find the best solution.
+- The assembly shown was modeled in **SolidWorks**, with FEA being done on the high-stress components to show they met FOS (Factor of Safety, Material Strength / Yield Strength) requirements.
   
 <p align="center">
   <img src="ZStage_Setup.png" 
@@ -69,7 +69,7 @@ The stage and digital camera systems live inside the vacuum chamber. The stage a
 
 ## Temperature Monitoring and Logging DAQ System (LabVIEW)
 ### What
-Designed and implemented a LabVIEW application to monitor and record temperature data from multiple thermocouples during the curing process of superconducting magnets. The system was intended to provide real-time visibility into oven temperature uniformity and to generate reliable temperature records for process validation and quality assurance.
+Designed and implemented a LabVIEW application to monitor and record temperature data from multiple thermocouples during the heat treatment (epoxy curing for this project) of superconducting magnets. The system was intended to provide real-time visibility into oven temperature uniformity and to generate reliable temperature records for process validation and quality assurance.
 
 <table align="center">
   <tr>
