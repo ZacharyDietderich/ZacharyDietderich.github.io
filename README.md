@@ -26,7 +26,7 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
 - The digital camera was outside the chamber, looking in through a viewport that didn't allow for high-quality imaging.
 #### The goal:
 - Develop a test platform with external vertical adjustability within ASML’s vacuum vessel. This system has to meet translation and accuracy requirements, as well as prevents damage to nearby critical components.
-- Develop an adjustable digital camera system that is in the vacuum chamberand provides the operator with a high resolution FOV of the samples on the mounting board.
+- Develop an adjustable digital camera system that is in the vacuum chamber and provides the operator with a high-resolution FOV of the samples on the mounting board.
 
 ### How
 
@@ -97,6 +97,23 @@ The dynamometer was designed in CAD to be compact, with sensor integration consi
 
 ### Build & Assembly
 The system was fabricated and assembled using a combination of machined components, waterjet-cut steel sheet metal, and 3D-printed parts. Sheet metal mounting features were MIG-welded to a base plate, with rectangular hollow sections (RHS) added underneath to increase structural rigidity and overall stiffness. Key instrumentation included a load cell for torque measurement, a pressure transducer for monitoring hydraulic load, a Hall effect sensor for RPM measurement, and an Arduino-based data acquisition system to collect and process sensor data in real time.
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="Dyno_3DPrintAdapter.HEIC" width="300">
+      <p align="center"><sub>3D Printed Spline to Pump Adapter</sub></p>
+    </td>
+    <td>
+      <img src="Dyno_HallEffect.HEIC" width="300">
+      <p align="center"><sub>Hall Effect Sensor and printed magnet attachement</sub></p>
+    </td>
+    <td>
+      <img src="Dyno_AdapterCrossSecView.png" width="300">
+      <p align="center"><sub>Adapter Connecting Pump (Left) and Spline (Right)</sub></p>
+    </td>
+  </tr>
+</table>
 
 ### Current System & Testing
 The dynamometer is currently operational and capable of measuring transmission output by correlating torque and rotational speed. It has been used to evaluate CVT performance compared to the previous CVT, providing initial insights into power transmission efficiency.
