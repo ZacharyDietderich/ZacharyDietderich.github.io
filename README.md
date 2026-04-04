@@ -101,16 +101,16 @@ The system was fabricated and assembled using a combination of machined componen
 <table align="center">
   <tr>
     <td>
-      <img src="Dyno_3DPrintAdapter.HEIC" width="300">
+      <img src="Dyno_3DPrintAdapter.png" width="300">
       <p align="center"><sub>3D Printed Spline to Pump Adapter</sub></p>
     </td>
     <td>
-      <img src="Dyno_HallEffect.HEIC" width="300">
+      <img src="Dyno_HallEffect.png" width="300">
       <p align="center"><sub>Hall Effect Sensor and printed magnet attachement</sub></p>
     </td>
     <td>
-      <img src="Dyno_AdapterCrossSecView.png" width="300">
-      <p align="center"><sub>Adapter Connecting Pump (Left) and Spline (Right)</sub></p>
+      <img src="Dyno_AssembledTestNOTrans.png" width="300">
+      <p align="center"><sub>Assembled test settup with direct chain connection to spline</sub></p>
     </td>
   </tr>
 </table>
@@ -119,6 +119,19 @@ The system was fabricated and assembled using a combination of machined componen
 The dynamometer is currently operational and capable of measuring transmission output by correlating torque and rotational speed. It has been used to evaluate CVT performance compared to the previous CVT, providing initial insights into power transmission efficiency.
 
 Ongoing testing has shown areas for improvement. A custom spline-to-pump adapter, initially 3D printed in PETG, experienced softening and stripping under high heat, load, and vibration. Additionally, vibration-induced movement of the hydraulic pump showed the need for the design and fabrication of a dedicated pump holder to maintain proper engagement. A more robust replacement adapter is currently being manufactured using wire EDM and CNC machining to improve strength and reliability. These iterations are informing continued refinement of the system for sustained operation under higher loads.
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="Dyno_3DPrintAdapter.png" width="300">
+      <p align="center"><sub>3D Printed Spline to Pump Adapter</sub></p>
+    </td>
+    <td>
+      <img src="Dyno_MetalAdapterView.png" width="300">
+      <p align="center"><sub>New Metal Adapter Being Made</sub></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
