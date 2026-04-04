@@ -7,6 +7,7 @@ Hi, I’m **Zachary Dietderich**, a Mechanical Engineering student at San Diego 
 
 # Projects
 - [In-vacuum Z-Stage (Senior Capstone — ASML and SDSU)](#asml-capstone)
+- [Engine Dynomometer (Aztec Baja Racing)](#engine-dynomometer-aztec-baja-racing)
 - [Temperature Monitoring and Logging DAQ System (LabVIEW)](#temperature-monitoring-and-logging-daq-system-labview)
 - [Modeling, Fabrication, Test Winding, and Automated Control (LBNL)](#modeling-fabrication-test-winding-and-automated-control-lbnl)
 - [MATLAB Pick and Place Robot (SDSU)](#matlab-pick-and-place-robot-sdsu)
@@ -64,6 +65,43 @@ The stage and digital camera systems reside inside the vacuum chamber. The stage
 - The accuracy and repeatability can now be controlled.
 - Test efficiency is greatly improved with outside operation from the user.
 - Safety requirements preventing users from entering the chamber are now met.
+
+---
+
+<h2 id="engine-dynomometer-aztec-baja-racing">
+  Engine Dynomometer (Aztec Baja Racing)
+</h2>
+
+### Project Overview
+This project was driven by the need to accurately measure the performance of the engine and transmission. Evaluating the efficiency of the newly designed and built CVT compared to the previously used CVT. Commercial dynamometers at this scale are limited and expensive, so we designed and built a custom solution capable of measuring horsepower through torque and RPM.
+
+### Early Design (CAD)
+The dynamometer was designed in CAD to be compact, with sensor integration considered from the outset. Mounting features and geometry were developed to incorporate a lever arm for load cell–based torque measurement, a pressure transducer within the hydraulic system, and a Hall effect sensor for RPM detection. A custom 3D-printed shaft component was created to house embedded magnets, enabling accurate rotational sensing. The overall layout ensured proper alignment, structural rigidity, and easy serviceability of both mechanical and electrical components.
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="Dyno_FullAssembly.png" width="300">
+      <p align="center"><sub>Full Assembly</sub></p>
+    </td>
+    <td>
+      <img src="Dyno_DrivenCVTandPump.png" width="300">
+      <p align="center"><sub>Driven CVT and Hydraulic Pump</sub></p>
+    </td>
+    <td>
+      <img src="Dyno_AdapterCrossSecView.png" width="300">
+      <p align="center"><sub>Adapter Connecting Pump (Left) and Spline (Right)</sub></p>
+    </td>
+  </tr>
+</table>
+
+### Build & Assembly
+The system was fabricated and assembled using a combination of machined components, waterjet-cut steel sheet metal, and 3D-printed parts. Sheet metal mounting features were MIG-welded to a base plate, with rectangular hollow sections (RHS) added underneath to increase structural rigidity and overall stiffness. Key instrumentation included a load cell for torque measurement, a pressure transducer for monitoring hydraulic load, a Hall effect sensor for RPM measurement, and an Arduino-based data acquisition system to collect and process sensor data in real time.
+
+### Current System & Testing
+The dynamometer is currently operational and capable of measuring transmission output by correlating torque and rotational speed. It has been used to evaluate CVT performance compared to the previous CVT, providing initial insights into power transmission efficiency.
+
+Ongoing testing has shown areas for improvement. A custom spline-to-pump adapter, initially 3D printed in PETG, experienced softening and stripping under high heat, load, and vibration. Additionally, vibration-induced movement of the hydraulic pump showed the need for the design and fabrication of a dedicated pump holder to maintain proper engagement. A more robust replacement adapter is currently being manufactured using wire EDM and CNC machining to improve strength and reliability. These iterations are informing continued refinement of the system for sustained operation under higher loads.
 
 ---
 
