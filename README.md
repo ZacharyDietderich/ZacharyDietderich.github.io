@@ -123,8 +123,8 @@ Ongoing testing has shown areas for improvement. A custom spline-to-pump adapter
 <table align="center">
   <tr>
     <td>
-      <img src="Dyno_3DPrintAdapter.png" width="300">
-      <p align="center"><sub>3D Printed Spline to Pump Adapter</sub></p>
+      <img src="Dyno_MeltedAdapter.png" width="300">
+      <p align="center"><sub>Pump Side of the Adapter Melted</sub></p>
     </td>
     <td>
       <img src="Dyno_MetalAdapterView.png" width="300">
